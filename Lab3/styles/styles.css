@@ -18,3 +18,8 @@ h1 {
 body {
     background-color: antiquewhite;
 }
+
+.tt {
+    color: red;
+    text-decoration: none;
+}
