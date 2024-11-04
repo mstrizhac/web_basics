@@ -9,14 +9,13 @@ body {
 }
 
 .addresses-wrapper {
-    margin-top: 20%;
     justify-content: center;
     gap: 25px;
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
     max-width: 1400px;
-    margin: 450px auto;
+    margin: 20% auto;
 }
 
 @media(max-width: 1023px) {
