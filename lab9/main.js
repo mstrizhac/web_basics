@@ -1,21 +1,23 @@
-/*let star = "*****";
-let i = 0;
+// let star = "*****";
+// let i = 0;
+//
+// let count = 48;
+//
+// while (true) {
+//     console.log(star);
+//     if (i < count / 2) {
+//         star += "*";
+//     } else {
+//         star = star.slice(0, -1);
+//     }
+//     i++;
+//     if (i == count)
+//         break;
+// }
 
-while (true) {
-    console.log(star);
-    if (i < 12) {
-        star += "*";
-    } else {
-        star = star.slice(0, -1);
-    }
-    i++;
-    if (i == 24)
-        break;
-}
-*/
+//
 
-//----------------------
-
+// let i = 0;
 // let lastTime = new Date().getTime();
 // const endTime = lastTime + 10000; // 10 seconds from the start time
 //
@@ -33,7 +35,7 @@ while (true) {
 //         lastTime = currentTime;
 //     }
 // }
-//
+
 // //----------------------
 //
 // const car = {
@@ -212,7 +214,6 @@ while (true) {
 // };
 
 
-
 ////----------------------
 
 // console.log({}.toString())
@@ -228,7 +229,7 @@ while (true) {
 
 //----------------------
 
-Array.prototype.toString = function() {
-    return '[object ' + this.constructor.name + ']';
-}
-console.log([].toString());
+    // Array.prototype.toString = function() {
+    //     return '[object ' + this.constructor.name + ']';
+    // }
+    // console.log(Object.prototype.toString.call([]));

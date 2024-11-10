@@ -1,76 +1,77 @@
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: serif;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.25;
     color: #777;
-    margin-bottom: 0;
 }
 
-.our-adv {
-    font-weight: 700;
+ul ul {
+    font-style: italic;
+    font-weight: bold;
 }
 
-.hiro-title {
-    font-family: "Montserrat", sans-serif;
+h1, h2 {
+    font-family: 'Cormorant Infant', serif;
+    letter-spacing: 0.5px;
     color: black;
-    line-height: 0.5;
     text-transform: capitalize;
-    display: flex;
-    justify-content: center;
+}
+
+h1 {
     font-size: 32px;
 }
 
-.hiro-title__pidlogo {
-    padding-top: 60px;
-    padding-bottom: 0;
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    line-height: 0.5;
-    text-transform: capitalize;
-    font-weight: 700;
+h2 {
     font-size: 26px;
 }
 
-p {
-    text-align:  justify;
-    line-height: 1;
-}
-
-.double-line {
+.second {
     line-height: 2;
 }
 
-.our-adv {
-    background-image: url( 'http://picsum.photos/id/357/700/400?blur=5');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 30px;
-    padding-bottom: 60px;
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 700;
-}
-
-.lil {
-    font-weight: 800;
-}
-
-
 .mail-box {
-
-    max-width: 150px;
+    width: 150px;
     background-color: #E3FFF6;
     border: 5px solid #C2E4C2;
+    padding: 5px 20px;
+    box-sizing: border-box;
+
 }
 
-.mail-box__text {
-    padding: 5px  20px;
+.mail-box a {
+    word-wrap: break-word;
+    display: block;
+}
+
+p {
+    text-align: justify;
+}
+
+.our-adv {
+    background-image: url('http://picsum.photos/id/357/700/400?blur=5');
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0 60px;
+    color: white;
+    font-size: 16px;
+}
+
+h2 {
+    margin: 60px 0 0 0;
+}
+
+body {
+    font-family: 'PT Sans Narrow', serif;
+}
+
+h1, h2 {
+    font-family: 'Cormorant Infant', serif;
 }
 
 .ruler {
-    padding: 5px 0;
     width: 150px;
     background-color: lime;
     text-align: center;
 }
+  
+  

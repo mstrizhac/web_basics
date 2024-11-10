@@ -65,7 +65,6 @@ const poem = line1.concat(
 
 console.log(poem);
 
-
 function findMaxSubarray(arr) {
     let maxSoFar = arr[0];
     let maxEndingHere = arr[0];
@@ -157,12 +156,13 @@ function arrayDifference(arr1, arr2) {
     return result;
 }
 
-var foo = 1;  
-function bar() { 
+var foo = 1;
+
+function bar() {
      
-    if (!foo) {  
-        var foo = 10;  
-    }  
+    if (!foo) {
+        var foo = 10;
+    }
     alert(foo);  
 }  
 bar(); 
